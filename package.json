@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "prettier": "prettier --write .",
+    "http-server": "http-server ./dist",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -14,6 +15,7 @@
     "astro": "^2.0.9"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0"
   }
